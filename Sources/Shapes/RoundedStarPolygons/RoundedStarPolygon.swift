@@ -19,7 +19,7 @@ public struct RoundedStarPolygon: Shape {
         self.init(points: points, smoothness: smoothness, convexRadius: convexRadius, concaveRadius: concaveRadius, inset: 0)
     }
     
-    init(points: UInt, smoothness: CGFloat, convexRadius: CGFloat, concaveRadius: CGFloat, inset: CGFloat) {
+    public init(points: UInt, smoothness: CGFloat, convexRadius: CGFloat, concaveRadius: CGFloat, inset: CGFloat) {
         self.points = points
         self.smoothness = smoothness
         self.convexRadius = convexRadius
